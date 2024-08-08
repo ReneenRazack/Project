@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WEBSITE.Registerpage">
+      <class name="WEBSITE.DEMOBLAZE">
         <methods>
-          <include name="cls" invocation-numbers="0"/>
+          <include name="project" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="project2" invocation-numbers="0 1 2"/>
+          <include name="testlog"/>
         </methods>
-      </class> <!-- WEBSITE.Registerpage -->
+      </class> <!-- WEBSITE.DEMOBLAZE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

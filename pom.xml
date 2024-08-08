@@ -3,7 +3,7 @@
   <groupId>NEW</groupId>
   <artifactId>PROJECT</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies><!-- https://mvnrepository.com/artifact/org.testng/testng -->
+ <dependencies><!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -14,7 +14,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.16.1</version>
+    <version>4.23.0</version>
 </dependency>
 
 </dependencies>
